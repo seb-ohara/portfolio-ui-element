@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+}
+
+body{
+    background-color: rgb(19, 20, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25vh
+}
+.iMages{
+    height: 35px;
+}
+#img1{
+    margin-left: 15px;
+}
+#img2, #img3{
+    margin-left: 20px;
+}
+#Footer{
+    height: 40%;
+    background-color: rgb(71, 71, 91);
+    border-radius: 20px;
+    font-size: 80%;
+    font-weight: 100;
+    border: solid rgb(90, 90, 114) ;
+}
+
+#portImage{
+    background-color: rgba(182, 182, 182, 0.143);
+    width: 450px;
+    height: 360px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+#portImage{
+    background-image: url("UI\ Designs.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#footTop{
+    margin: 15px;
+    margin-left: 5%;
+    font-size: 90%;
+}
+#footBottom{
+    display: flex;
+}
+#tech{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#imgOpen{
+    margin-left: 40%;
+    fill: wheat;
+}
+#imgOpen:hover{
+    height: 38px;
+    transition: 0.5s;
+    cursor: context-menu;
+}
